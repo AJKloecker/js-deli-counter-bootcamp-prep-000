@@ -7,7 +7,7 @@ function takeANumber(katzDeliLine, name){
       return i + 1
     }
   }
-  return i
+  return i + 1
 }
 
 function nowServing(){
