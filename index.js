@@ -30,9 +30,9 @@ function currentLine(katzDeliLine){
   }
   for(i;i < size; ++i){
     if(i == size - 1){
-      ans = ans + `${i}. ${katzDeliLine[i]}`
+      ans = ans + `${i + 1}. ${katzDeliLine[i]}`
     }else{
-      ans = ans + `${i}. ${katzDeliLine[i]}, `
+      ans = ans + `${i + 1}. ${katzDeliLine[i]}, `
     }
   }
   return ans
