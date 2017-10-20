@@ -11,7 +11,7 @@ function nowServing(katzDeliLine){
     return "There is nobody waiting to be served!"
   }else{
     temp = katzDeliLine.unshift()
-    return temp
+    return `Currently serving ${temp}`
   }
 }
 
