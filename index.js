@@ -26,7 +26,7 @@ function currentLine(katzDeliLine){
   var ans = "The line is currently: "
 
   if(size == 0){
-    return "The Line is currently empty."
+    return "The line is currently empty."
   }
   for(i;i < size; ++i){
     if(i == size - 1){
