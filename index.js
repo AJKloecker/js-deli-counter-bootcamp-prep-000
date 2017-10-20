@@ -1,4 +1,4 @@
-var katzDeliLine = [];
+var katzDeli = [];
 
 function takeANumber(katzDeliLine, name){
   var i = 0
@@ -21,5 +21,5 @@ function nowServing(){
 }
 
 function currentLine(){
-  
+
 }
