@@ -12,7 +12,7 @@ function nowServing(katzDeliLine){
   }else{
     temp = katzDeliLine[0]
     katzDeliLine.unshift()
-    return `Currently serving ${temp}`
+    return `Currently serving ${temp}.`
   }
 }
 
