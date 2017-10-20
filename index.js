@@ -4,10 +4,10 @@ function takeANumber(katzDeliLine, name){
   var i = 0
   for(i; i < katzDeliLine; ++i){
     if(katzDeliLine[i] === name){
-      return `Welcome, ${katzDeliLine} You are number ${i + 1} in line.`
+      return `Welcome, ${katzDeliLine[i]} You are number ${i + 1} in line.`
     }
   }
-  return `Welcome, ${katzDeliLine} You are number ${i + 1} in line.`
+  return `Welcome, ${katzDeliLine[i]} You are number ${i + 1} in line.`
 }
 
 function nowServing(){
