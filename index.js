@@ -1,8 +1,10 @@
 
 function takeANumber(katzDeliLine, name){
   var i = 0
+
   for(i; i < katzDeliLine; ++i){
-    if(katzDeliLine[i] == name){
+    if(katzDeliLine[i] == name || katzDeliline.length = 0){
+      ka
       return `Welcome, ${katzDeliLine[i]} You are number ${i + 1} in line.`
     }
   }
